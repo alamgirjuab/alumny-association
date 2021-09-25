@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react';
+import Header from './components/Header/Header';
 
 function App() {
   useEffect(() => {
@@ -10,7 +11,7 @@ function App() {
   }, [])
   return (
     <div>
-
+      <Header></Header>
     </div>
   );
 }
