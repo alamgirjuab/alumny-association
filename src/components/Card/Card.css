@@ -2,6 +2,7 @@
     margin: 20px;
     padding: 15px 15px 33px 15px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 .card-body img{
 width: 150px;
@@ -18,5 +19,13 @@ border: 1px solid gray;
     width: 100px;
     height: 30px;
     border-radius: 10px;
+    cursor: pointer;
+}
+.social-icon{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    padding: 0 40%;
+    color: royalblue;
     cursor: pointer;
 }

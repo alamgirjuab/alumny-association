@@ -6,14 +6,20 @@ import './Member.css';
 const Member = () => {
     const [members, setMembers] = useState([]);
     const [cart, setCart] = useState([]);
+
+    /* -------------------
+     | Fetching API data |
+     -------------------*/
     useEffect(() => {
         fetch('./members.json')
             .then(res => res.json())
             .then(data => setMembers(data))
     }, [])
 
+    /* -------------------------------
+     | Button Event Handler Function |
+     -------------------------------*/
     const handleAddMember = (member) => {
-        // console.log(member.name)
         const newCart = [...cart, member];
         setCart(newCart);
     }
