@@ -17,6 +17,6 @@ border: 1px solid gray;
     background-color: goldenrod;
     width: 100px;
     height: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
 }
