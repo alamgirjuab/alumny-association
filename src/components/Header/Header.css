@@ -1,0 +1,9 @@
+*{
+    margin-top: 0;
+}
+.top-header{
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
